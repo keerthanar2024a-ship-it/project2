@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>REGISTRATION FORM</title>
+    <link rel="icon" href="icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+<h1>Register</h1>
+
+<form method="get" action="index.html">
+
+<div>
+<label for="n">Name:</label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input name="n" id="n" type="text" required>
+</div>
+<br>
+
+<div>
+<label for="p">Password:</label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input name="p" id="p" type="password" required>
+</div>
+<br>
+
+<div>
+<label for="d">Date-of-Birth:</label>
+<input name="d" id="d" type="date" required>
+</div>
+<br>
+
+<div>
+<label for="a">Age:</label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input name="a" id="a" type="number" max="99" required>
+</div>
+<br>
+
+<div>
+<label for="e">E-Mail:</label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input name="e" id="e" type="email" required>
+</div>
+<br>
+
+<div>
+<p>Gender:
+<input name="g" id="gm" type="radio" value="Male" required>
+<label for="gm">Male</label>
+
+<input name="g" id="gf" type="radio" value="Female">
+<label for="gf">Female</label>
+
+<input name="g" id="go" type="radio" value="Others">
+<label for="go">Others</label>
+</p>
+</div>
+<br>
+
+<div>
+Available slot:<br><br>
+
+<input name="s[]" id="s1" type="checkbox" value="8:00-9:00">
+<label for="s1">8:00-9:00</label>
+<br>
+
+<input name="s[]" id="s2" type="checkbox" value="9:00-10:00">
+<label for="s2">9:00-10:00</label>
+<br>
+
+<input name="s[]" id="s3" type="checkbox" value="11:00-12:00">
+<label for="s3">11:00-12:00</label>
+<br>
+
+<input name="s[]" id="s4" type="checkbox" value="13:00-14:00">
+<label for="s4">13:00-14:00</label>
+
+</div>
+<br>
+
+<div>
+Branch:
+<select name="b">
+<option value="cs">Computer Science</option>
+<option value="ece">Electronics</option>
+<option value="civ">Civil</option>
+<option value="mech">Mechanical</option>
+</select>
+</div>
+<br>
+
+<button type="submit">SUBMIT</button>
+<button type="reset">RESET</button>
+
+</form>
+
+</body>
+</html>
